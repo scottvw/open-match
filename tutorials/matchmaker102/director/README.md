@@ -11,12 +11,12 @@ REGISTRY=[YOUR_REGISTRY_URL]
 
 Step2: Build the Director image.
 ```
-docker build -t $REGISTRY/mm102-tutorial-director .
+docker build -t $REGISTRY/mm101-tutorial-director .
 ```
 
 Step3: Push the Director image to the configured Registry.
 ```
-docker push $REGISTRY/mm102-tutorial-director
+docker push $REGISTRY/mm101-tutorial-director
 ```
 
 Step4: Update the install yaml for your setup.

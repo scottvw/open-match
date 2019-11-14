@@ -15,11 +15,11 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: mm102-tutorial-director
-  namespace: mm102-tutorial
+  name: mm101-tutorial-director
+  namespace: mm101-tutorial
 spec:
   containers:
-  - name: mm102-tutorial-director
-    image: REGISTRY_PLACEHOLDER/mm102-tutorial-director:latest
+  - name: mm101-tutorial-director
+    image: REGISTRY_PLACEHOLDER/mm101-tutorial-director:latest
     imagePullPolicy: Always
-  hostname: mm102-tutorial-director
+  hostname: mm101-tutorial-director

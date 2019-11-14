@@ -15,15 +15,15 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: mm102-tutorial-matchfunction
-  namespace: mm102-tutorial
+  name: mm101-tutorial-matchfunction
+  namespace: mm101-tutorial
   labels:
-    app: mm102-tutorial
+    app: mm101-tutorial
     component: matchfunction
 spec:
   containers:
-  - name: mm102-tutorial-matchfunction
-    image: REGISTRY_PLACEHOLDER/mm102-tutorial-matchfunction:latest
+  - name: mm101-tutorial-matchfunction
+    image: REGISTRY_PLACEHOLDER/mm101-tutorial-matchfunction:latest
     imagePullPolicy: Always
     ports:
     - name: grpc
@@ -32,14 +32,14 @@ spec:
 kind: Service
 apiVersion: v1
 metadata:
-  name: mm102-tutorial-matchfunction
-  namespace: mm102-tutorial
+  name: mm101-tutorial-matchfunction
+  namespace: mm101-tutorial
   labels:
-    app: mm102-tutorial
+    app: mm101-tutorial
     component: matchfunction
 spec:
   selector:
-    app: mm102-tutorial
+    app: mm101-tutorial
     component: matchfunction
   clusterIP: None
   type: ClusterIP

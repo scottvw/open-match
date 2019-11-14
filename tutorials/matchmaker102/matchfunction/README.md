@@ -11,12 +11,12 @@ REGISTRY=[YOUR_REGISTRY_URL]
 
 Step2: Build the Match Function image.
 ```
-docker build -t $REGISTRY/mm102-tutorial-matchfunction .
+docker build -t $REGISTRY/mm101-tutorial-matchfunction .
 ```
 
 Step3: Push the Match Function image to the configured Registry.
 ```
-docker push $REGISTRY/mm102-tutorial-matchfunction
+docker push $REGISTRY/mm101-tutorial-matchfunction
 ```
 
 Step4: Update the install yaml for your setup.

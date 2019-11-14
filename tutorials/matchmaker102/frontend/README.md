@@ -11,12 +11,12 @@ REGISTRY=[YOUR_REGISTRY_URL]
 
 Step2: Build the Frontend image.
 ```
-docker build -t $REGISTRY/mm102-tutorial-frontend .
+docker build -t $REGISTRY/mm101-tutorial-frontend .
 ```
 
 Step3: Push the Frontend image to the configured Registry.
 ```
-docker push $REGISTRY/mm102-tutorial-frontend
+docker push $REGISTRY/mm101-tutorial-frontend
 ```
 
 Step4: Update the install yaml for your setup.
